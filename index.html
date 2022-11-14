@@ -14,10 +14,10 @@
 
 <body>
     <header>
-        <div id="logo" ><button id="link-logo" onClick={home}>Felipe Ceccotti</button></div>
+        <div id="logo"><button id="link-logo" onClick={home}>Felipe Ceccotti</button></div>
         <div>
             <ul id="nav-links">
-                <li className="header-links"><a id="link-1" href="https://www.felipececcotti.com/">Voltar</a></li>
+                <li className="header-links"><a id="link-1" href="http://localhost:3000/">Voltar</a></li>
             </ul>
 
         </div>
@@ -26,33 +26,22 @@
 
     <div id="container">
 
-    <div id="gameBoard">
-        <!-- <div id="3978h4n" class="card flip" data-icon="bootstrap">
+        <div id="gameBoard">
 
-            <div class="card_front">
-                <img class="icon" src="./assets/images/bootstrap.png">
-            </div>
 
-            <div class="card_back"> 
-                &lt/&gt
-            </div>
         </div>
-        
-        </div> -->
+        <div id="gameOver">
+            <div>Congratulations you completed the game!</div>
+            <button id="restart" onclick="restart()">Play again</button>
 
-    </div>
-    <div id="gameOver">
-        <div>Congratulations you completed the game!</div>
-        <button id="restart" onclick="restart()">Play again</button>
+        </div>
 
-    </div>
-    
-    <div id="CCards">
-        
-        <button id="clearCards" onclick="clearPage()">Clear Cards</button>
+        <div id="CCards">
 
+            <button id="clearCards" onclick="clearPage()">Clear Cards</button>
+
+        </div>
     </div>
-</div>
     <script src="./assets/script/game.js"></script>
     <script src="./assets/script/script.js"></script>
 </body>
